@@ -33,7 +33,7 @@ export default function RootLayout({
       </head>
       <body className={`antialiased`}>
         <Navbar />
-        <div style={{ paddingTop: "80px" }}>{children}</div>
+        <div style={{ paddingTop: "73px" }}>{children}</div>
       </body>
     </html>
   );
