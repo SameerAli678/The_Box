@@ -1,6 +1,10 @@
+// src/
 import AboutSection from "@/components/common/about-section";
 import HeroSection from "@/components/common/hero-section";
 import Reputation from "@/components/common/reputation";
+import ServicesCard from "@/components/common/services-Card";
+import Construction from "../../../public/service/Construction.png";
+import ServicesSection from "@/components/common/services-section";
 
 const HomeIndex = () => {
   return (
@@ -9,8 +13,9 @@ const HomeIndex = () => {
       {/* Our Reputation */}
       <Reputation />
       <AboutSection />
-
-      <div className="border">
+      <ServicesSection />
+      {/* <ServicesCard image={Construction.src} text="Construction" /> */}
+      <div className="border mt-64 flex">
         <p className="text-primary">Blue</p>
         <p className="text-secondary">Gray</p>
         <p className="text-success">Green</p>
