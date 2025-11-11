@@ -11,7 +11,7 @@ const HeroSection = () => {
           alt="Hero Section"
           width={1000}
           height={500}
-          className="d-flex w-100"
+          className="d-flex w-screen h-[500px]"
         />
         <h1
           style={{
