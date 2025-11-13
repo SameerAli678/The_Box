@@ -1,9 +1,9 @@
 // src
 
 // --------------------------------------- Export Navbar Props ---------------------------------
-export interface serviceCardI {
+export interface projectCardI {
   image: string;
   text: string;
-  blue?: boolean;
+  description: string;
   className?: string;
 }

@@ -8,11 +8,11 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #6a4c65;
+  background: #2947A9;
   border-radius: 6px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #9e7b8a;
+  background: #5c7be4;
 }
 
 body {
