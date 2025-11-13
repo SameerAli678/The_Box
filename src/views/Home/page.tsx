@@ -1,21 +1,43 @@
 // src/
-import AboutSection from "@/components/common/about-section";
-import HeroSection from "@/components/common/hero-section";
-import Reputation from "@/components/common/reputation";
-import ServicesCard from "@/components/common/services-Card";
-import Construction from "../../../public/service/Construction.png";
-import ServicesSection from "@/components/common/services-section";
+import AboutSection from "@/components/sections/about-section";
+import HeroSection from "@/components/sections/hero-section";
+import Reputation from "@/components/sections/reputation";
+import ServicesSection from "@/components/sections/services-section";
+import ProjectsSection from "@/components/sections/projects-section";
+import ExperienceSection from "@/components/sections/experience-section";
+import Consultation from "@/components/common/consultation";
+import ReasonInput from "@/components/common/input";
+import ReasonSelect from "@/components/common/select-input";
+import ContactFields from "@/components/sections/contact-section";
 
 const HomeIndex = () => {
   return (
     <div>
+      {/* Hero Section */}
       <HeroSection />
+
       {/* Our Reputation */}
       <Reputation />
+
+      {/* About us Section */}
       <AboutSection />
+
+      {/* Services Section */}
       <ServicesSection />
-      {/* <ServicesCard image={Construction.src} text="Construction" /> */}
-      <div className="border mt-64 flex">
+
+      {/* Projects Section */}
+      <ProjectsSection />
+
+      {/* Experience Section */}
+      {/* <ExperienceSection /> */}
+
+      {/* Consultation */}
+      <Consultation />
+
+      <ReasonInput />
+      <ReasonSelect />
+      <ContactFields />
+      <div className="border mt-64 flex flex-col">
         <p className="text-primary">Blue</p>
         <p className="text-secondary">Gray</p>
         <p className="text-success">Green</p>
