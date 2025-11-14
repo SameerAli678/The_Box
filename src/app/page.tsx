@@ -1,5 +1,9 @@
 import HomeIndex from "@/views/Home/page";
 
 export default function Home() {
-  <HomeIndex />;
+  return (
+    <div className="">
+      <HomeIndex />
+    </div>
+  );
 }
