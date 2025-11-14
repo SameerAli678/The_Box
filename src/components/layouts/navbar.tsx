@@ -17,7 +17,7 @@ const Navbar = () => {
   const pathName = usePathname();
   return (
     <div>
-      <nav className="d-flex justify-content-between align-items-center shadow-sm px-4 py-3 fixed-top z-500 bg-white w-100">
+      <nav className="d-flex justify-content-around align-items-center shadow-sm px-4 py-3 fixed-top z-500 bg-white w-100">
         {/* logo */}
         <div className="d-flex align-items-center w-fit-content">
           <Link

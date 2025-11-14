@@ -1,7 +1,5 @@
-import React from "react";
+import AboutUsIndex from "@/views/About-us/page";
 
-const AboutUs = () => {
-  return <div>AboutUs</div>;
-};
+const AboutUs = () => <AboutUsIndex />;
 
 export default AboutUs;

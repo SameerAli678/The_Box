@@ -1,11 +1,5 @@
-import React from "react";
+import ServicesIndex from "@/views/Services/page";
 
-const Services = () => {
-  return (
-    <div>
-      <div></div>
-    </div>
-  );
-};
+const Services = () => <ServicesIndex />;
 
 export default Services;

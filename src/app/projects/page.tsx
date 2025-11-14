@@ -1,7 +1,5 @@
-import React from "react";
+import ProjectsIndex from "@/views/Projects/page";
 
-const Projects = () => {
-  return <div>Projects</div>;
-};
+const Projects = () => <ProjectsIndex />;
 
 export default Projects;

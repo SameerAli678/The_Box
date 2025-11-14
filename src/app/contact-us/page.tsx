@@ -1,7 +1,5 @@
-import React from "react";
+import ContactUsIndex from "@/views/Contact-us/pages";
 
-const ContactUs = () => {
-  return <div>ContactUs</div>;
-};
+const ContactUs = () => <ContactUsIndex />;
 
 export default ContactUs;
