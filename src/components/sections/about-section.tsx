@@ -11,7 +11,7 @@ const AboutSection = () => {
   const { push } = useRouter();
 
   return (
-    <div className="flex items-center justify-center xl:pr-64">
+    <div className="flex items-center justify-center py-7 xl:pr-64">
       <div className="flex flex-col xl:relative w-fit justify-center items-center gap-y-5 p-2">
         <Image
           src={owner}
@@ -24,7 +24,7 @@ const AboutSection = () => {
           className={`${
             isClient ? "client-class" : "server-class"
           } xl:absolute xl:top-13 xl:bottom-1/2 xl:-right-96 flex flex-col w-full xl:max-w-lg h-full xl:h-[500px] text-white
-       bg-[#2947A9] p-3 items-start m-2 justify-between xl:p-10`}
+       bg-[#2947A9] items-start m-2 justify-between p-10`}
         >
           <h1>About Us</h1>
           <div>

@@ -1,5 +1,12 @@
+import ServicesSection from "@/components/sections/services-section";
+
 const ServicesIndex = () => {
-  return <div>ServicesIndex</div>;
+  return (
+    <div>
+      {/* Services Section */}
+      <ServicesSection />
+    </div>
+  );
 };
 
 export default ServicesIndex;

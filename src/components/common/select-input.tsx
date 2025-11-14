@@ -2,10 +2,10 @@
 
 const SelectInput = () => {
   return (
-    <div className="w-full max-w-xs">
+    <div className="w-full sm:col-span-2 col-span-1">
       <label
         htmlFor="reason"
-        className="block mb-1 text-sm font-medium text-gray-700"
+        className="block mb-1 text-sm font-medium text-gray-500"
       >
         Reason for contacting
       </label>
@@ -14,10 +14,10 @@ const SelectInput = () => {
         <select
           id="reason"
           name="reason"
-          className="block w-full appearance-none rounded-md border border-gray-300 bg-white px-3 py-2 pr-8 text-sm text-gray-700 focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
+          className="block w-full appearance-none rounded-md border border-gray-300 bg-white px-3 py-2 pr-8 text-sm text-gray-500 focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
           defaultValue=""
         >
-          <option value="" disabled>
+          <option value="" disabled className="flex text-gray-700">
             Reason for contacting
           </option>
           <option value="support">Customer Support</option>
